@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.1.10" icons="true" automaticImage="PNG" always-add-relationships="false" 
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
   router="FAN">  
-  <class id="1" language="java" name="com.mycompany.basicmathoperations.simple.Multiply" 
-    project="example-1-operationsOn2numbers" 
-    file="/example-1-operationsOn2numbers/src/com/mycompany/basicmathoperations/simple/Multiply.java" binary="false" 
+  <class id="1" language="java" name="com.mycompany.basicmathoperations.simple.Add" project="ass1-operationsOn2number" 
+    file="/ass1-operationsOn2number/src/com/mycompany/basicmathoperations/simple/Add.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="413" y="89"/>    
+    <position height="96" width="202" x="186" y="267"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,17 +13,62 @@
     </display>  
   </class>  
   <class id="2" language="java" name="com.mycompany.basicmathoperations.simple.MainEntry4simple" 
-    project="example-1-operationsOn2numbers" 
-    file="/example-1-operationsOn2numbers/src/com/mycompany/basicmathoperations/simple/MainEntry4simple.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="137" y="90"/>    
+    project="ass1-operationsOn2number" 
+    file="/ass1-operationsOn2number/src/com/mycompany/basicmathoperations/simple/MainEntry4simple.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="501" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="3">    
+  <class id="3" language="java" name="com.mycompany.basicmathoperations.simple.Multiply" 
+    project="ass1-operationsOn2number" 
+    file="/ass1-operationsOn2number/src/com/mycompany/basicmathoperations/simple/Multiply.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="381" y="457"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.mycompany.basicmathoperations.simple.Divide" 
+    project="ass1-operationsOn2number" 
+    file="/ass1-operationsOn2number/src/com/mycompany/basicmathoperations/simple/Divide.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="552" y="307"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.mycompany.basicmathoperations.simple.Subtract" 
+    project="ass1-operationsOn2number" 
+    file="/ass1-operationsOn2number/src/com/mycompany/basicmathoperations/simple/Subtract.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="691" y="459"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="9">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
